@@ -1,7 +1,8 @@
 <!doctype html><html lang="en"><head>
   <meta name="google-site-verification" content="eoIg5SNaS0elVN0HVJZeepsrzTBRXyKRmmq3qJ3Ywuo" />
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><meta name="theme-color" content="#4fc7ed">
-<title>THE BM GAME — Candy Kingdom Final Music</title>
+<title>The BM Game – Candy Kingdom | Free Match 3 Puzzle Game</title>
+<meta name="description" content="Play The BM Game – Candy Kingdom, a colorful match 3 puzzle adventure with 100 levels, exciting challenges, candy matching and special game features. Enjoy the game on mobile and desktop.">
 <link rel="manifest" href="data:application/manifest+json;base64,eyJuYW1lIjoiVEhFIEJNIEdBTUUiLCJzaG9ydF9uYW1lIjoiQ2FuZHlLaW5nZG9tIiwic3RhcnRfdXJsIjoiLmluZGV4Lmh0bWwiLCJkaXNwbGF5Ijoic3RhbmRhbG9uZSIsImJhY2tncm91bmRfY29sb3IiOiIjNmJkN2U4IiwidGhlbWVfY29sb3IiOiIjNGZjN2VkIn0=">
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
@@ -40,10 +41,74 @@ button{font:inherit;border:0;cursor:pointer;color:inherit;font-family:"Fredoka O
 #overlay{display:flex;position:absolute;inset:0;z-index:10;background:#18295bbd;align-items:center;justify-content:center;padding:18px}.panel{width:min(90vw,380px);border-radius:28px;padding:8px;background:linear-gradient(135deg,#fff4b8,#ff7ac8 40%,#a832c7);border:4px solid #ffe7fa;box-shadow:0 10px 0 #65318e,0 20px 40px #14204fbb}.panelInner{border-radius:22px;background:radial-gradient(ellipse at 50% 0%,#fff 0%,#ffd9f0 100%);border:4px solid #fff;padding:18px 14px;text-align:center;color:#7c245b}
 .panel h1{font-size:clamp(24px,7vw,32px);margin:0 0 4px;color:#ffe46e;-webkit-text-stroke:1px #fff;text-shadow:0 2px 0 #d57b26,0 4px 0 #9a3c82}.panel h2{margin:0 0 6px;color:#74204e;font-size:18px}.panel p{font-size:12px;font-weight:400;color:#8c3c68}
 .bigbtn{display:block;width:80%;margin:10px auto 4px;padding:10px;border-radius:50px;background:linear-gradient(180deg,#fff6a9,#ff7a45 54%,#e82a8b);border:4px solid #fff;box-shadow:0 5px 0 #9e286c,inset 0 3px 5px #fff;font-size:18px;color:#fff;text-shadow:0 2px 0 #a52d69}.secondarybtn{background:linear-gradient(180deg,#d6fbff,#3989e8 70%,#3950b8);box-shadow:0 5px 0 #263d91}.creatorCredit{font-family:"Fredoka One",sans-serif;font-size:13px;color:#934b79;margin-top:8px;letter-spacing:1px;text-shadow:0 1px 0 #fff}
+.seoIntro {
+  position: relative;
+  z-index: 2;
+  width: 92%;
+  max-width: 520px;
+  margin: 18px auto 25px;
+  padding: 18px;
+  background: #ffffffed;
+  color: #5b286a;
+  border: 3px solid #fff;
+  border-radius: 18px;
+  box-shadow: 0 5px 12px #2679a744;
+  text-align: left;
+  line-height: 1.6;
+  font-family: Arial, sans-serif;
+}
+.seoIntro h2 {
+  font-size: 21px;
+  margin: 0 0 10px;
+  color: #a51d72;
+}
+.seoIntro p {
+  font-size: 14px;
+  margin: 8px 0;
+}
+.seoIntro ul {
+  font-size: 14px;
+  padding-left: 22px;
+}
 </style></head><body><div id="app">
 <div class="sky"></div><div class="cloud"></div><div class="hill"></div>
 <header id="topbar"><div class="brand">THE BM GAME<small>CANDY KINGDOM</small></div><div class="pill">⭐ Level <span id="currentLevelBadge">1</span></div><button class="audioToggleBtn" id="audioToggleBtn">🎵 MUSIC: ON</button></header>
-<section id="mapScreen"><div class="mapTitle">Candy Kingdom</div><div class="mapSub">100 Levels Epic Adventure ✨</div><div class="path" id="path"></div></section>
+<section id="mapScreen"><div class="mapTitle">Candy Kingdom</div><div class="mapSub">100 Levels Epic Adventure ✨</div><section class="seoIntro">
+  <h2>Welcome to The BM Game – Candy Kingdom!</h2>
+
+  <p>
+    Enter the colorful world of Candy Kingdom, an exciting
+    match-3 puzzle game created by Bali. Match three or more
+    colorful candies, complete challenging objectives and
+    explore an adventure filled with fun.
+  </p>
+
+  <h2>How to Play</h2>
+
+  <p>
+    Swipe adjacent candies to match three or more candies
+    of the same color. Complete the target before your
+    available moves run out.
+  </p>
+
+  <h2>Game Features</h2>
+
+  <ul>
+    <li>100 exciting puzzle levels.</li>
+    <li>Colorful candy matching gameplay.</li>
+    <li>Special boosters and helpful tools.</li>
+    <li>Background music and sound effects.</li>
+    <li>Progressive challenges as you advance.</li>
+    <li>Designed for mobile and desktop browsers.</li>
+  </ul>
+
+  <p>
+    Start your Candy Kingdom adventure and see how many
+    levels you can complete!
+  </p>
+</section>
+
+<div class="path" id="path"></div><div class="path" id="path"></div></section>
 <section id="gameScreen"><div class="gamebg"></div><div class="hud"><div class="stat">SCORE<strong id="score">0</strong><div class="progress"><i id="bar"></i></div></div><div class="stat" style="text-align:center">MOVES<strong class="moves" id="moves">24</strong></div><div class="stat goal">🍬 TARGET<strong id="target">0 / 18</strong></div></div><div class="boardWrap"><div id="board"></div></div><div class="bottomTools"><button class="tool" id="hintBtn" title="Hint">💡 <span id="hintCount" style="font-size:10px">3</span></button><button class="tool" id="shuffle" title="Shuffle">🔀</button><button class="tool" id="hammer" title="Hammer">🔨</button></div></section>
 <div id="overlay"><div class="panel"><div class="panelInner"><h1>THE BM GAME</h1><h2 id="modalTitle">Welcome to Candy Kingdom!</h2><p id="modalText">Match candies, clear targets and unlock 100 levels!</p><button class="bigbtn" id="play">▶ PLAY LEVEL</button><button class="bigbtn secondarybtn" id="viewLevelsBtn">✦ MAP LEVELS</button><div class="creatorCredit">Created by Bali</div></div></div></div>
 <div id="swipeFx"></div><div id="toast"></div></div>
