@@ -1,0 +1,5 @@
+
+User-agent: *
+Allow: /
+
+Sitemap: https://bilal888shahid-blip.github.io/The-BM-Game-Candy-Kingdom/sitemap.xml
